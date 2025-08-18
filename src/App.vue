@@ -1,9 +1,11 @@
 <script setup>
-import JSONLab from './components/JSON.vue'
+// import JSONLab from './components/JSON.vue'
+import LoginForm from './components/LoginForm.vue'
 </script>
 
 <template>
-  <JSONLab />
+  <!-- <JSONLab /> -->
+  <LoginForm />
 </template>
 
 <style scoped></style>

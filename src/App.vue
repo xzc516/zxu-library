@@ -1,11 +1,12 @@
 <script setup>
-// import JSONLab from './components/JSON.vue'
-import LoginForm from './components/LoginForm.vue'
+import BHeader from './components/BHeader.vue'
 </script>
 
 <template>
-  <!-- <JSONLab /> -->
-  <LoginForm />
+  <div>
+    <BHeader />
+    <router-view />
+  </div>
 </template>
 
 <style scoped></style>
